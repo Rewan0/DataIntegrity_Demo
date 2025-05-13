@@ -28,7 +28,7 @@ File: 'client.py'
      - Recreate the internal MD5 state from a known MAC
      - Continue hashing appended data without knowing the secret key
 
-Parameters used:
+- Parameters used:
     - Original message: amount=100&to=alice
     - Original MAC: 614d28d808af46d3702fe35fae67267c
     - Guessed key length: 14
