@@ -13,8 +13,8 @@ File: 'server_vulnerable.py'
 - Generates a MAC using:
   hashlib.md5(secret + message)
 
-    -Simulates a server that verifies messages using this weak construction.
-    -Calls perform_attack() from client.py to demonstrate forgery.
+    - Simulates a server that verifies messages using this weak construction.
+    - Calls perform_attack() from client.py to demonstrate forgery.
 
  - Expected output:
    MAC verified successfully (unexpected). Attack succeeded!
